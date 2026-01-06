@@ -1,0 +1,1107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2399965783281632412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2399965783281632408}
+  - component: {fileID: 2399965783281632411}
+  m_Layer: 0
+  m_Name: LeanLanguageCSV (English)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2399965783281632408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399965783281632412}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2399965784823068858}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2399965783281632411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399965783281632412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 812e21288bcfd9e40affbcf1ebc16951, type: 3}
+  Format: 1
+  Language: English
+  Cache: 0
+  entries:
+  - Name: Test
+    Text: Test
+  - Name: SwordsmanName
+    Text: Roy
+  - Name: ArcherName
+    Text: Erin
+  - Name: MageName
+    Text: Mark
+  - Name: GoblinName
+    Text: Goblin
+  - Name: Attack
+    Text: Attack
+  - Name: Guard
+    Text: Guard
+  - Name: NewGameButton
+    Text: New Game
+  - Name: LoadGameButton
+    Text: Load Game
+  - Name: OverlimitLabel
+    Text: Overlimit
+  - Name: HpLabel
+    Text: HP
+  - Name: TpLabel
+    Text: TP
+  - Name: ComboLabel
+    Text: Combo
+  - Name: Miss
+    Text: Miss
+  - Name: BlockedLabel
+    Text: Blocked
+  - Name: GuardBuff
+    Text: Guarding
+  - Name: SaveLabel
+    Text: Save
+  - Name: LoadLabel
+    Text: Load
+  - Name: LvLabel
+    Text: Lv
+  - Name: ConfirmOverwriteDataText
+    Text: There is already data written to the selected block. Do you really want
+      to overwrite them?
+  - Name: SuccessSaveLabel
+    Text: Game saved successfully!
+  - Name: SuccessLoadLabel
+    Text: Game loaded successfully!
+  - Name: NewSaveDataLabel
+    Text: New Save Data
+  - Name: ConfirmOverwrite
+    Text: Yes
+  - Name: CancelOverwrite
+    Text: No
+  - Name: NotImplemented
+    Text: Not Implemented Exception
+  - Name: BattleTestScene
+    Text: Battle Test
+  - Name: SkillsLabel
+    Text: Skills
+  - Name: SkillLabel
+    Text: Skill
+  - Name: CriticalLabel
+    Text: Critical!
+  - Name: SuperEffectiveLabel
+    Text: Weakness
+  - Name: LowEffectiveLabel
+    Text: Ineffective
+  - Name: WeaknessesLabel
+    Text: Weaknesses
+  - Name: LevelUpLabel
+    Text: Level Up!
+  - Name: ExpLabel
+    Text: Exp
+  - Name: SpLabel
+    Text: SP
+  - Name: MoneyUnity
+    Text: G
+  - Name: GameOverMsg
+    Text: The party was annihilated...
+  - Name: GameOverLabel
+    Text: Game Over
+  - Name: GameOverLoadLabel
+    Text: Load last saved data
+  - Name: GameOverResetLabel
+    Text: Go to main menu
+  - Name: MoveCommandLabel
+    Text: Move
+  - Name: BonusActionLabel
+    Text: Bonus!
+  - Name: RunLabel
+    Text: Run
+  - Name: CantEscapeText
+    Text: The party failed to escape...
+  - Name: CantUseCommandTxt
+    Text: Can't {0}.
+  - Name: PotionLv1
+    Text: Red Herb
+  - Name: PotionLv1Desc
+    Text: Recovers approximately {0}% of the user's {1}.
+  - Name: ItemsLabel
+    Text: Items
+  - Name: GotItemsLabel
+    Text: Got items!
+  - Name: CombosLabel
+    Text: Combos
+  - Name: CpLabel
+    Text: CP
+  - Name: PersistenceAbl
+    Text: Persistence
+  - Name: PersistenceAblDesc
+    Text: Low chance of getting up after mortal blows.
+  - Name: PersistenceAblDialogue1
+    Text: This is not over yet!
+  - Name: PersistenceAblDialogue2
+    Text: Can I fight seriously now?
+  - Name: PersistenceAblDialogue3
+    Text: Is that all you got?
+  - Name: NextLevelLabel
+    Text: 'Next. Lv: {0}'
+  - Name: MainMenuItemButtonDesc
+    Text: View and use items in your inventory.
+  - Name: MainMenuSkillButtonDesc
+    Text: Use and learn skills.
+  - Name: MainMenuEquipButtonDesc
+    Text: Equip your team members with the equipment you got.
+  - Name: MainMenuFormationButtonDesc
+    Text: Change your battle formation.
+  - Name: MainMenuJournalButtonDesc
+    Text: See the notes made about your journey so far.
+  - Name: MainMenuConfigButtonDesc
+    Text: Change the game configuration.
+  - Name: MainMenuSaveButtonDesc
+    Text: Save your game progress.
+  - Name: MainMenuExitButtonDesc
+    Text: Exit Game
+  - Name: EquipLabel
+    Text: Equip
+  - Name: FormationLabel
+    Text: Formation
+  - Name: JournalLabel
+    Text: Journal
+  - Name: ConfigLabel
+    Text: Config
+  - Name: ExitGameLabel
+    Text: Exit Game
+  - Name: UsableItemsLabel
+    Text: Items
+  - Name: WeaponsLabel
+    Text: Weapons
+  - Name: BootsEquipTypeLabel
+    Text: Shoes
+  - Name: ArmorsLabel
+    Text: Armors
+  - Name: AccessoriesLabel
+    Text: Accessories
+  - Name: KeyItemsLabel
+    Text: Key Items
+  - Name: AtkCompleteLabel
+    Text: Attack
+  - Name: DefCompleteLabel
+    Text: Defense
+  - Name: MatkCompleteLabel
+    Text: M. Attack
+  - Name: MdefCompleteLabel
+    Text: M. Defense
+  - Name: SpdCompleteLabel
+    Text: Speed
+  - Name: LckCompleteLabel
+    Text: Luck
+  - Name: AccurCompleteLabel
+    Text: Accuracy
+  - Name: EvdCompleteLabel
+    Text: Evasion
+  - Name: OptimizeEquipLabel
+    Text: Best
+  - Name: RemoveLabel
+    Text: Remove
+  - Name: SuperEffectiveSmallLabel
+    Text: Weak
+  - Name: LowEffectiveSmallLabel
+    Text: Resist
+  - Name: PartyMenuNameLabel
+    Text: Party Management
+  - Name: ExitGameMessage
+    Text: Do you really want to quit the game?
+  - Name: Yes
+    Text: Yes
+  - Name: No
+    Text: No
+  - Name: GetGoldMessage
+    Text: '{0}You got {1}{2}MONEY_UNITY{3}!'
+  - Name: GetItemMessage
+    Text: '{0}You got {1}{2}{3}{4}{5}!'
+  - Name: GetItemInventoryFullMessage
+    Text: '{0}You got {1}{2}{3}{4}{5}, but your inventory is full...'
+  - Name: QuestStartedLabel
+    Text: Started!
+  - Name: QuestUpdatedLabel
+    Text: New Objective
+  - Name: QuestCompletedLabel
+    Text: Completed!
+  - Name: QuestSubMenuLabel
+    Text: Quests
+  - Name: BestiarySubMenuLabel
+    Text: Bestiary
+  - Name: MoneyQuantity
+    Text: '{0}MONEY_UNITY'
+  - Name: QuestRewardLabel
+    Text: 'Reward: {0}{1}{2}{3}{4}'
+  - Name: QuestTestEndConclusion
+    Text: The quest system works!
+  - Name: QuestTestUpdate
+    Text: SWORDSMAN_NAME is in the end of the road
+  - Name: QuestTestGoal = "MAGE_NAME said that ARCHER_NAME knows his location."
+    Text: 
+  - Name: QuestTestDescription
+    Text: Talk with SWORDSMAN_NAME to see if quests work.
+  - Name: QuestTestName
+    Text: Hello Quest World
+  - Name: QuestsLabel
+    Text: Quests
+  - Name: EnemyDropLabel
+    Text: Drop
+  - Name: EnemyStealableLabel
+    Text: Steal
+  - Name: BeastBattlerType
+    Text: Beast
+  - Name: BirdBattlerType
+    Text: Bird
+  - Name: BugBattlerType
+    Text: Insect
+  - Name: DarkBeastBattlerType
+    Text: Abyss
+  - Name: DragonBattlerType
+    Text: Dragon
+  - Name: GhostBattlerType
+    Text: Ghost
+  - Name: HumanoidBattlerType
+    Text: Humanoid
+  - Name: OgreBattlerType
+    Text: Ogre
+  - Name: SlimeBattlerType
+    Text: Slime
+  - Name: UndeadBattlerType
+    Text: Undead
+  - Name: RockBattlerType
+    Text: Rock
+  - Name: GoblinDesc
+    Text: Hostile creatures with wild habits. They tend to roam in packs and attack
+      unsuspecting travelers.
+  - Name: ExpGainLabel
+    Text: '{0}EXP_LABEL {1}+{2}'
+  - Name: SpGainLabel
+    Text: '{0}SP_LABEL {1}+{2}'
+  - Name: CantUseActionTxt
+    Text: '{0} can''t use {1}.'
+  - Name: CantAttackTxt
+    Text: '{0} can''t attack.'
+  - Name: CantGuardTxt
+    Text: '{0} can''t guard.'
+  - Name: CantRunTxt
+    Text: '{0} can''t run.'
+  - Name: BattleAiTestLowHpMsg
+    Text: Enemy with low HP.
+  - Name: BattleAiTestStrategy1Msg
+    Text: Strategy first action.
+  - Name: BattleAiTestStrategy2Msg
+    Text: Strategy second action.
+  - Name: BattleAiTestDefaultMsg
+    Text: Default action.
+  - Name: BattleAiTestTurnMsg
+    Text: Turn action
+  - Name: TurnWeaknessLabel
+    Text: Weak
+  - Name: EquipmentLabel
+    Text: Equipment
+  - Name: TraitsLabel
+    Text: Traits
+  - Name: MagicoresLabel
+    Text: Magicores
+  - Name: StatusLabel
+    Text: Status
+  - Name: MainMenuStatusButtonDesc
+    Text: View your party status.
+  - Name: UseTechLabel
+    Text: Use
+  - Name: EquipTechLabel
+    Text: Equip
+  - Name: LearnUpgradeTechLabel
+    Text: Learn
+  - Name: EmptyTechSlot
+    Text: Empty
+  - Name: TechCooldownLabel
+    Text: Cooldown
+  - Name: TechPowerLabel
+    Text: Power
+  - Name: TechAccurLabel
+    Text: Accuracy
+  - Name: TechAreaLabel
+    Text: Area
+  - Name: MagicoreTechTest_0
+    Text: MagicoreTechTest_0
+  - Name: MagicoreTechTest_0_desc
+    Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - Name: MagicoreTechTest_1
+    Text: MagicoreTechTest_1
+  - Name: MagicoreTechTest_1_desc
+    Text: Morbi fringilla massa ultricies, hendrerit massa faucibus, accumsan nibh.
+  - Name: MagicoreTechTest_2
+    Text: MagicoreTechTest_2
+  - Name: MagicoreTechTest_2_desc
+    Text: Donec ante ipsum, rhoncus sit amet euismod ut, elementum quis massa.
+  - Name: StepBackAbl
+    Text: Step Back
+  - Name: StepBackAblDesc
+    Text: After using an action that requires movement, the user returns to the previous
+      tile.
+  - Name: GetMagicoreMessage
+    Text: '{0}You got {1}{2}{3}{4}!'
+  - Name: LockedMagicoreLabel
+    Text: Locked
+  - Name: MainMenuMagicoreButtonDesc
+    Text: Equip Magicores on your party members.
+  - Name: PartyMemberEmpty
+    Text: '- Empty -'
+  - Name: MainPartyMemberLabel
+    Text: Main
+  - Name: PartnerLabel
+    Text: Partner
+  - Name: AttackDescription
+    Text: Attacks an enemy with the equipped weapon.
+  - Name: GuardDescription
+    Text: Reduces damage taken.
+  - Name: DontHavePartnerErrorMsg
+    Text: There is no partner avaliable for switch.
+  - Name: IsInOverlimitErrorMsg
+    Text: It is not possible to change characters during OVERLIMIT_NAME.
+  - Name: ChangeCharacterMoveLabel
+    Text: Skills
+  - Name: SwitchCharacterBattleOptLabel
+    Text: Partner
+  - Name: PartnerTechLabel
+    Text: Partner Techs
+  - Name: ConfirmLearnTechText
+    Text: Do you really want to spend {0} SP_LABEL to learn {1}?
+  - Name: ConfirmUpgradeTechText
+    Text: Do you really want to spend {0} SP_LABEL to evolve {1}?
+  - Name: MagicoreLabel
+    Text: Magicore
+  - Name: PoisonStatus
+    Text: Poison
+  - Name: BlindStatus
+    Text: Blind
+  - Name: SilenceStatus
+    Text: Silence
+  - Name: InventoryLabel
+    Text: Inventory
+  - Name: PriceLabel
+    Text: Price
+  - Name: NameLabel
+    Text: Name
+  - Name: ShopOwnerNameMan
+    Text: Shop Owner
+  - Name: ShopOwnerNameWoman
+    Text: Shop Owner
+  - Name: ShopLabel
+    Text: Shop
+  - Name: ShopItemQuantityLabel
+    Text: Quantity
+  - Name: ShopEquippedLabel
+    Text: Equipped
+  - Name: BuyLabel
+    Text: Buy
+  - Name: SellLabel
+    Text: Sell
+  - Name: SkillLearnTxt
+    Text: '{0}{1} awakened the skill {2}{3}{0}!'
+  - Name: MagicoreCantHaveMoreSkills
+    Text: '{0}{1} has awakened the skill {2}{3}{0}. However, {1} cannot store any
+      more skills. Choose one skill to discard.'
+  - Name: ConfirmMagicoreSkillDiscardTxt
+    Text: Do you really want to discard {0}?
+  - Name: ScrollsItemLabel
+    Text: Scrolls
+  - Name: NewLabel
+    Text: New
+  - Name: CurrentPartyLabel
+    Text: Party
+  - Name: PlayerBattleInitiativeTxt
+    Text: Surprise Attack!
+  - Name: EnemyBattleInitiativeTxt
+    Text: Ambushed!
+  - Name: ScrollDesc
+    Text: Teachs the skill {0}. {1}
+  - Name: ConfirmMagicLearnTxt
+    Text: Do you really want to discard {1}{2}{0} and learn {1}{3}{0}?
+  - Name: CharacterTechLearnTxt
+    Text: '{1}{2}{0} learned {1}{3}{0}!'
+  - Name: DiscardSkilTextHelp
+    Text: Can't learn new skills. Please choose one skill to discard.
+--- !u!1 &2399965784823068860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2399965784823068858}
+  - component: {fileID: 2399965784823068861}
+  m_Layer: 0
+  m_Name: LeanLocalization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2399965784823068858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399965784823068860}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -42.859104, y: 2.4692438, z: -0.974092}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1421201023829933527}
+  - {fileID: 9112660441337822786}
+  - {fileID: 2399965783281632408}
+  - {fileID: 2733627757541543885}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2399965784823068861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399965784823068860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLanguage: Portuguese
+  detectLanguage: 1
+  defaultLanguage: English
+  saveLoad: 1
+  prefabs: []
+--- !u!1 &5223922611658605537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2733627757541543885}
+  - component: {fileID: 2087976942226921944}
+  m_Layer: 0
+  m_Name: LeanLanguageCSV (Portuguese)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2733627757541543885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5223922611658605537}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2399965784823068858}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2087976942226921944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5223922611658605537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086ae75064fca9f46b315403da7f5d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Source: {fileID: 4900000, guid: 6168e107bdc0d0048bd1543778cde063, type: 3}
+  Format: 1
+  Language: Portuguese
+  Cache: 0
+  entries:
+  - Name: Test
+    Text: Teste
+  - Name: SwordsmanName
+    Text: Roy
+  - Name: ArcherName
+    Text: Erin
+  - Name: MageName
+    Text: Mark
+  - Name: GoblinName
+    Text: Goblin
+  - Name: Attack
+    Text: Atacar
+  - Name: Guard
+    Text: Defender
+  - Name: NewGameButton
+    Text: Novo Jogo
+  - Name: LoadGameButton
+    Text: Continuar Jogo
+  - Name: OverlimitLabel
+    Text: Limite
+  - Name: HpLabel
+    Text: HP
+  - Name: TpLabel
+    Text: TP
+  - Name: ComboLabel
+    Text: Combo
+  - Name: Miss
+    Text: Errou
+  - Name: BlockedLabel
+    Text: Bloqueou
+  - Name: GuardBuff
+    Text: Defendendo
+  - Name: SaveLabel
+    Text: Salvar
+  - Name: LoadLabel
+    Text: Carregar
+  - Name: LvLabel
+    Text: Lv
+  - Name: ConfirmOverwriteDataText
+    Text: "J\xE1 existem dados gravados no bloco selecionado. Deseja mesmo sobrescrev\xEA-los?"
+  - Name: SuccessSaveLabel
+    Text: Jogo salvo com sucesso!
+  - Name: SuccessLoadLabel
+    Text: Jogo carregado com sucesso!
+  - Name: NewSaveDataLabel
+    Text: Novo Arquivo de Progresso
+  - Name: ConfirmOverwrite
+    Text: Sim
+  - Name: CancelOverwrite
+    Text: "N\xE3o"
+  - Name: NotImplemented
+    Text: Not Implemented Exception
+  - Name: BattleTestScene
+    Text: Teste Batalha
+  - Name: SkillsLabel
+    Text: Habilidades
+  - Name: SkillLabel
+    Text: Habilidade
+  - Name: CriticalLabel
+    Text: "Cr\xEDtico!"
+  - Name: SuperEffectiveLabel
+    Text: Fraqueza
+  - Name: LowEffectiveLabel
+    Text: Inefetivo
+  - Name: WeaknessesLabel
+    Text: Fraquezas
+  - Name: LevelUpLabel
+    Text: Level Up!
+  - Name: ExpLabel
+    Text: Exp
+  - Name: SpLabel
+    Text: SP
+  - Name: MoneyUnity
+    Text: G
+  - Name: GameOverMsg
+    Text: A equipe foi aniquilada...
+  - Name: GameOverLabel
+    Text: Game Over
+  - Name: GameOverLoadLabel
+    Text: "Continuar do \xFAltimo ponto salvo"
+  - Name: GameOverResetLabel
+    Text: Ir para o menu principal
+  - Name: MoveCommandLabel
+    Text: Mover
+  - Name: BonusActionLabel
+    Text: "B\xF4nus!"
+  - Name: RunLabel
+    Text: Correr
+  - Name: CantEscapeText
+    Text: "N\xE3o conseguiu fugir..."
+  - Name: CantUseCommandTxt
+    Text: "N\xE3o pode {0}."
+  - Name: PotionLv1
+    Text: Erva Vermelha
+  - Name: PotionLv1Desc
+    Text: "Recupera cerca de {0}% de {1} do usu\xE1rio."
+  - Name: ItemsLabel
+    Text: Itens
+  - Name: GotItemsLabel
+    Text: Itens obtidos!
+  - Name: CombosLabel
+    Text: Combos
+  - Name: CpLabel
+    Text: CP
+  - Name: PersistenceAbl
+    Text: "Persist\xEAncia"
+  - Name: PersistenceAblDesc
+    Text: "Baixa chance de se levantar ap\xF3s receber um golpe mortal."
+  - Name: PersistenceAblDialogue1
+    Text: "J\xE1 acabou? Agora eu vou te quebrar na porrada."
+  - Name: PersistenceAblDialogue2
+    Text: "Isso a\xED \xE9 tudo o que voc\xEA tem?"
+  - Name: PersistenceAblDialogue3
+    Text: "Posso come\xE7ar a lutar a s\xE9rio agora?"
+  - Name: NextLevelLabel
+    Text: "Pr\xF3x. Lv: {0}"
+  - Name: MainMenuItemButtonDesc
+    Text: "Visualize e use itens do seu invent\xE1rio."
+  - Name: MainMenuSkillButtonDesc
+    Text: Use e aprenda habilidades.
+  - Name: MainMenuEquipButtonDesc
+    Text: Equipe-se com os equipamentos adquiridos.
+  - Name: MainMenuFormationButtonDesc
+    Text: "Mude sua forma\xE7\xE3o de batalha."
+  - Name: MainMenuJournalButtonDesc
+    Text: "Veja as anota\xE7\xF5es feitas sobre sua jornada at\xE9 agora."
+  - Name: MainMenuConfigButtonDesc
+    Text: "Mude as configura\xE7\xF5es do jogo."
+  - Name: MainMenuSaveButtonDesc
+    Text: Salve seu progresso.
+  - Name: MainMenuExitButtonDesc
+    Text: Saia do jogo
+  - Name: EquipLabel
+    Text: Equipamento
+  - Name: FormationLabel
+    Text: "Forma\xE7\xE3o"
+  - Name: JournalLabel
+    Text: "Di\xE1rio"
+  - Name: ConfigLabel
+    Text: "Configura\xE7\xF5es"
+  - Name: ExitGameLabel
+    Text: Sair do jogo
+  - Name: UsableItemsLabel
+    Text: Itens
+  - Name: WeaponsLabel
+    Text: Armas
+  - Name: BootsEquipTypeLabel
+    Text: "Cal\xE7ados"
+  - Name: ArmorsLabel
+    Text: Vestimentas
+  - Name: AccessoriesLabel
+    Text: "Acess\xF3rios"
+  - Name: KeyItemsLabel
+    Text: Itens Chave
+  - Name: AtkCompleteLabel
+    Text: Ataque
+  - Name: DefCompleteLabel
+    Text: Defesa
+  - Name: MatkCompleteLabel
+    Text: Ataque M.
+  - Name: MdefCompleteLabel
+    Text: Defesa M.
+  - Name: SpdCompleteLabel
+    Text: Agilidade
+  - Name: LckCompleteLabel
+    Text: Sorte
+  - Name: AccurCompleteLabel
+    Text: "Precis\xE3o"
+  - Name: EvdCompleteLabel
+    Text: "Evas\xE3o"
+  - Name: OptimizeEquipLabel
+    Text: Melhor
+  - Name: RemoveLabel
+    Text: Remover
+  - Name: SuperEffectiveSmallLabel
+    Text: Fraco
+  - Name: LowEffectiveSmallLabel
+    Text: Resiste
+  - Name: PartyMenuNameLabel
+    Text: Gerenciamento de Equipe
+  - Name: ExitGameMessage
+    Text: Deseja mesmo sair do jogo?
+  - Name: Yes
+    Text: Sim
+  - Name: No
+    Text: "N\xE3o"
+  - Name: GetGoldMessage
+    Text: "{0}Voc\xEA ganhou {1}{2}MONEY_UNITY{3}!"
+  - Name: GetItemMessage
+    Text: "{0}Voc\xEA obteve {1}{2}{3}{4}{5}!"
+  - Name: GetItemInventoryFullMessage
+    Text: "{0}Voc\xEA obteve {1}{2}{3}{4}{5}, mas seu invent\xE1rio est\xE1 cheio..."
+  - Name: QuestStartedLabel
+    Text: Iniciou!
+  - Name: QuestUpdatedLabel
+    Text: Novo Objetivo
+  - Name: QuestCompletedLabel
+    Text: "Miss\xE3o cumprida!"
+  - Name: QuestSubMenuLabel
+    Text: "Miss\xF5es"
+  - Name: BestiarySubMenuLabel
+    Text: "Besti\xE1rio"
+  - Name: MoneyQuantity
+    Text: '{0}MONEY_UNITY'
+  - Name: QuestRewardLabel
+    Text: 'Recompensa: {0}{1}{2}{3}{4}'
+  - Name: QuestTestEndConclusion
+    Text: O sistema de quests funciona!
+  - Name: QuestTestUpdate
+    Text: "SWORDSMAN_NAME est\xE1 no fim da estrada."
+  - Name: "QuestTestGoal = \"MAGE_NAME disse que ARCHER_NAME sabe sua localiza\xE7\xE3o.\""
+    Text: 
+  - Name: QuestTestDescription
+    Text: Fale com SWORDSMAN_NAME para saber se o sistema de quests funciona.
+  - Name: QuestTestName
+    Text: "Ol\xE1 Mundo de Quest"
+  - Name: QuestsLabel
+    Text: "Miss\xF5es"
+  - Name: EnemyDropLabel
+    Text: Itens
+  - Name: EnemyStealableLabel
+    Text: Roubo
+  - Name: BeastBattlerType
+    Text: Besta
+  - Name: BirdBattlerType
+    Text: Ave
+  - Name: BugBattlerType
+    Text: Inseto
+  - Name: DarkBeastBattlerType
+    Text: Abismo
+  - Name: DragonBattlerType
+    Text: "Drag\xE3o"
+  - Name: GhostBattlerType
+    Text: Fantasma
+  - Name: HumanoidBattlerType
+    Text: "Human\xF3ide"
+  - Name: OgreBattlerType
+    Text: Ogro
+  - Name: SlimeBattlerType
+    Text: Gosma
+  - Name: UndeadBattlerType
+    Text: Morto-Vivo
+  - Name: RockBattlerType
+    Text: Pedra
+  - Name: GoblinDesc
+    Text: "Criaturas hostis com h\xE1bitos selvagens. Eles tendem a vagar em bandos
+      e atacar viajantes desatentos."
+  - Name: ExpGainLabel
+    Text: '{0}EXP_LABEL {1}+{2}'
+  - Name: SpGainLabel
+    Text: '{0}SP_LABEL {1}+{2}'
+  - Name: CantUseActionTxt
+    Text: "{0} n\xE3o pode usar {1}."
+  - Name: CantAttackTxt
+    Text: "{0} n\xE3o pode atacar."
+  - Name: CantGuardTxt
+    Text: "{0} n\xE3o pode defender."
+  - Name: CantRunTxt
+    Text: "{0} n\xE3o pode fugir."
+  - Name: BattleAiTestLowHpMsg
+    Text: Inimigo com pouco HP.
+  - Name: BattleAiTestStrategy1Msg
+    Text: "Primeira a\xE7\xE3o da estrat\xE9gia"
+  - Name: BattleAiTestStrategy2Msg
+    Text: "Segunda a\xE7\xE3o da estrat\xE9gia."
+  - Name: BattleAiTestDefaultMsg
+    Text: "A\xE7\xE3o padr\xE3o."
+  - Name: BattleAiTestTurnMsg
+    Text: "A\xE7\xE3o de turno"
+  - Name: TurnWeaknessLabel
+    Text: Fraqueza
+  - Name: EquipmentLabel
+    Text: Equipamento
+  - Name: TraitsLabel
+    Text: "Caracter\xEDsticas"
+  - Name: MagicoresLabel
+    Text: Magicores
+  - Name: StatusLabel
+    Text: Status
+  - Name: MainMenuStatusButtonDesc
+    Text: Visualize os status dos membros da sua equipe.
+  - Name: UseTechLabel
+    Text: Usar
+  - Name: EquipTechLabel
+    Text: Equipar
+  - Name: LearnUpgradeTechLabel
+    Text: Aprender
+  - Name: EmptyTechSlot
+    Text: Vazio
+  - Name: TechCooldownLabel
+    Text: T. de Espera
+  - Name: TechPowerLabel
+    Text: Poder
+  - Name: TechAccurLabel
+    Text: "Precis\xE3o"
+  - Name: TechAreaLabel
+    Text: "\xC1rea"
+  - Name: MagicoreTechTest_0
+    Text: MagicoreTechTest_0
+  - Name: MagicoreTechTest_0_desc
+    Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - Name: MagicoreTechTest_1
+    Text: MagicoreTechTest_1
+  - Name: MagicoreTechTest_1_desc
+    Text: Morbi fringilla massa ultricies, hendrerit massa faucibus, accumsan nibh.
+  - Name: MagicoreTechTest_2
+    Text: MagicoreTechTest_2
+  - Name: MagicoreTechTest_2_desc
+    Text: Donec ante ipsum, rhoncus sit amet euismod ut, elementum quis massa.
+  - Name: StepBackAbl
+    Text: Recuo
+  - Name: StepBackAblDesc
+    Text: "Ap\xF3s usar uma a\xE7\xE3o que exija movimento o usu\xE1rio retorna para
+      o tile anterior."
+  - Name: GetMagicoreMessage
+    Text: "{0}Voc\xEA obteve {1}{2}{3}{4}!"
+  - Name: LockedMagicoreLabel
+    Text: Bloqueado
+  - Name: MainMenuMagicoreButtonDesc
+    Text: Equipe Magicores nos membros da sua equipe.
+  - Name: PartyMemberEmpty
+    Text: '- VAZIO -'
+  - Name: MainPartyMemberLabel
+    Text: Titular
+  - Name: PartnerLabel
+    Text: Parceiro
+  - Name: AttackDescription
+    Text: Ataca um inimigo com a arma equipada.
+  - Name: GuardDescription
+    Text: Reduz o dano recebido.
+  - Name: DontHavePartnerErrorMsg
+    Text: "N\xE3o h\xE1 um parceiro dispon\xEDvel para realizar a troca."
+  - Name: IsInOverlimitErrorMsg
+    Text: "N\xE3o \xE9 poss\xEDvel trocar de personagem durante OVERLIMIT_NAME."
+  - Name: ChangeCharacterMoveLabel
+    Text: Habilidades
+  - Name: SwitchCharacterBattleOptLabel
+    Text: Parceiro
+  - Name: PartnerTechLabel
+    Text: Tec. de Suporte
+  - Name: ConfirmLearnTechText
+    Text: Deseja realmente gastar {0} SP_LABEL para aprender {1}?
+  - Name: ConfirmUpgradeTechText
+    Text: Deseja realmente gastar {0} SP_LABEL para evoluir {1}?
+  - Name: MagicoreLabel
+    Text: Magicore
+  - Name: PoisonStatus
+    Text: Envenenamento
+  - Name: BlindStatus
+    Text: Cegueira
+  - Name: SilenceStatus
+    Text: Silenciamento
+  - Name: InventoryLabel
+    Text: "Invent\xE1rio"
+  - Name: PriceLabel
+    Text: "Pre\xE7o"
+  - Name: NameLabel
+    Text: Nome
+  - Name: ShopOwnerNameMan
+    Text: Vendedor
+  - Name: ShopOwnerNameWoman
+    Text: Vendedora
+  - Name: ShopLabel
+    Text: Loja
+  - Name: ShopItemQuantityLabel
+    Text: Quantidade
+  - Name: ShopEquippedLabel
+    Text: Equipados
+  - Name: BuyLabel
+    Text: Comprar
+  - Name: SellLabel
+    Text: Vender
+  - Name: SkillLearnTxt
+    Text: '{0}{1} despertou a habilidade {2}{3}{0}!'
+  - Name: MagicoreCantHaveMoreSkills
+    Text: "{0}{1} despertou a habilidade {2}{3}{0}. Por\xE9m, {1} n\xE3o pode armazenar
+      mais habilidades. Escolha uma para descartar."
+  - Name: ConfirmMagicoreSkillDiscardTxt
+    Text: Deseja mesmo descartar {0}?
+  - Name: ScrollsItemLabel
+    Text: Pergaminhos
+  - Name: NewLabel
+    Text: Novo
+  - Name: CurrentPartyLabel
+    Text: Equipe
+  - Name: PlayerBattleInitiativeTxt
+    Text: Ataque surpresa!
+  - Name: EnemyBattleInitiativeTxt
+    Text: Emboscada!
+  - Name: ScrollDesc
+    Text: Ensina a habilidade {0}. {1}
+  - Name: ConfirmMagicLearnTxt
+    Text: Deseja mesmo descartar {1}{2}{0} e aprender {1}{3}{0}?
+  - Name: CharacterTechLearnTxt
+    Text: '{1}{2}{0} aprendeu {1}{3}{0}!'
+  - Name: DiscardSkilTextHelp
+    Text: "N\xE3o \xE9 poss\xEDvel aprender novas habilidades. Por favor escolha
+      uma para descartar."
+--- !u!1001 &470676852221068201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399965784823068858}
+    m_Modifications:
+    - target: {fileID: 765358623864573794, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_Name
+      value: English
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 971ef8207f535194faf411d40b27fb77, type: 3}
+--- !u!4 &1421201023829933527 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1527055450098318974, guid: 971ef8207f535194faf411d40b27fb77,
+    type: 3}
+  m_PrefabInstance: {fileID: 470676852221068201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7730319585062076476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2399965784823068858}
+    m_Modifications:
+    - target: {fileID: 765358623864573794, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_Name
+      value: Portuguese
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5cc1b5565f14d4545bac95b843540307, type: 3}
+--- !u!4 &9112660441337822786 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1527055450098318974, guid: 5cc1b5565f14d4545bac95b843540307,
+    type: 3}
+  m_PrefabInstance: {fileID: 7730319585062076476}
+  m_PrefabAsset: {fileID: 0}

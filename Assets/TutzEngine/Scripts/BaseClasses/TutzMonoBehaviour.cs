@@ -6,7 +6,7 @@ namespace TutzEngine
     {
         protected static IScene Scene => BaseScene.Instance;
         protected static T GetStaticObject<T>() where T : IStaticObject => 
-            GameStatics.GetManager<T>();
+            GameStatics.GetStaticObject<T>();
         protected static T GetSceneComponent<T>() where T : ISceneComponent => 
             Scene.GetSceneComponent<T>();
     }

@@ -17,8 +17,8 @@ namespace TutzEngine
             yield return null;
 
             gameManager.InitSceneManager();
-            gameManager.InitManagers();
-            GameStatics.GetManager<ISceneManager>().LoadScene(new SceneData(SceneToGo));
+            gameManager.InitStaticObjects();
+            GameStatics.GetStaticObject<ISceneManager>().LoadScene(new SceneData(SceneToGo));
         }
     }
 }

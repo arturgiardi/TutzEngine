@@ -16,7 +16,7 @@ namespace TutzEngine
             {
                 _instance = this;
                 DontDestroyOnLoad(gameObject);
-                GameStatics.SetManagerGetter(this);
+                GameStatics.SetStaticObjectGetter(this);
             }
             else
             {
@@ -48,6 +48,6 @@ namespace TutzEngine
                 Destroy(_instance.gameObject);
         }
 
-        public abstract void InitManagers();
+        public abstract void InitStaticObjects();
     }
 }

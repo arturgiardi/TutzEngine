@@ -1,24 +1,28 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using TutzEngine.SceneManagement;
+using UnityEngine;
 
 namespace TutzEngine
 {
     public abstract class BaseScene : Singleton<BaseScene>, IScene
     {
-        protected ISceneData SceneData { get; set; }
-        protected ISceneManager SceneManager => GameStatics.GetManager<ISceneManager>();
+        protected ISceneData SceneData => SceneManager.CurrentSceneData;
+        protected ISceneManager SceneManager => GameStatics.GetStaticObject<ISceneManager>();
         protected override bool DestroyOnLoad => true;
         private Dictionary<Type, ISceneComponent> _sceneComponents = new();
 
         protected void Start()
         {
-            SceneData = SceneManager.CurrentSceneData;
-            StartCoroutine(Init());
+            _ = Init();
         }
 
-        protected virtual IEnumerator Init() { yield break; }
+        protected virtual Awaitable Init()
+        {
+            return Awaitable.EndOfFrameAsync();
+        }
 
         public void LoadScene(SceneData sceneData)
         {
@@ -38,7 +42,7 @@ namespace TutzEngine
             return (T)_sceneComponents[typeof(T)];
         }
 
-        protected T GetManager<T>() where T : IStaticObject => GameStatics.GetManager<T>();
+        protected T GetStaticObject<T>() where T : IStaticObject => GameStatics.GetStaticObject<T>();
     }
 
     public abstract class BaseScene<T> : BaseScene where T : SceneData

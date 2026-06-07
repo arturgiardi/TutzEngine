@@ -1,9 +1,7 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using TutzEngine.SceneManagement;
-using UnityEngine;
 
 namespace TutzEngine
 {
@@ -19,14 +17,14 @@ namespace TutzEngine
             _ = Init();
         }
 
-        protected virtual Awaitable Init()
+        protected virtual UniTask Init()
         {
-            return Awaitable.EndOfFrameAsync();
+            return UniTask.CompletedTask;
         }
 
-        public void LoadScene(SceneData sceneData)
+        public virtual void LoadScene(SceneData sceneData, bool useLoading = false)
         {
-            SceneManager.LoadScene(sceneData);
+            SceneManager.LoadScene(sceneData, useLoading);
         }
 
         protected void SubscribeSceneComponent<T>(T component) where T : ISceneComponent

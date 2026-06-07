@@ -26,10 +26,10 @@ namespace TutzEngine
 
         public virtual void InitSceneManager()
         {
-            SusbcribeStaticObject<ISceneManager>(new GameSceneManager());
+            SubscribeStaticObject<ISceneManager>(new GameSceneManager());
         }
 
-        protected void SusbcribeStaticObject<T>(T manager) where T : IStaticObject
+        protected void SubscribeStaticObject<T>(T manager) where T : IStaticObject
         {
             _managers.Add(typeof(T), manager);
         }
